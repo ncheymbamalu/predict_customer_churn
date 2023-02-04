@@ -1,0 +1,14 @@
+root - INFO - import_data - SUCCESS: bank_data.csv read in
+root - INFO - perform_eda - SUCCESS: churn_distribution.png saved
+root - INFO - perform_eda - SUCCESS: customer_age_distribution.png saved
+root - INFO - perform_eda - SUCCESS: heatmap.png saved
+root - INFO - perform_eda - SUCCESS: marital_status_distribution.png saved
+root - INFO - perform_eda - SUCCESS: total_transaction_distribution.png saved
+root - INFO - encoder_helper - SUCCESS: categorical features encoded
+root - INFO - perform_feature_engineering - SUCCESS: train and test sets generated
+root - INFO - train_models - SUCCESS: rfc_model.pkl saved
+root - INFO - train_models - SUCCESS: logistic_model.pkl saved
+root - INFO - train_models - SUCCESS: roc_curve_result.png saved
+root - INFO - feature_importance_plot - SUCCESS: feature_importances.png saved
+root - INFO - classification_report_image - SUCCESS: logistic_results.png saved
+root - INFO - classification_report_image - SUCCESS: rf_results.png saved
