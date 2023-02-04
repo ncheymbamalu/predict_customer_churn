@@ -250,3 +250,13 @@ def classification_report_image(
         plt.axis("off")
         plt.tight_layout()
         plt.savefig(f"./images/results/{lst[1]}")
+
+
+if __name__ == "__main__":
+    df = import_data(r"./data/bank_data.csv")
+    perform_eda(df, r"./images/eda")
+    df_encoded = encoder_helper(df)
+    Xtrain, Xtest, ytrain, ytest = perform_feature_engineering(df_encoded)
+    train_models(Xtrain, Xtest, ytrain, ytest)
+    feature_importance_plot(Xtrain)
+    classification_report_image(Xtrain, Xtest, ytrain, ytest)
